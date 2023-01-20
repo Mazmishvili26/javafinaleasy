@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View">
+   <children>
+      <Text layoutX="28.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="შეიყვანე პირველი რიცხვი" />
+      <Spinner fx:id="firstNumber" layoutX="259.0" layoutY="39.0" />
+      <Text layoutX="28.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="შეიყვანე მეორე რიცხვი" />
+      <Spinner fx:id="secondNumber" layoutX="259.0" layoutY="106.0" />
+      <Button layoutX="28.0" layoutY="175.0" mnemonicParsing="false" onAction="#handleGenerateNumbers" text="დააგენერირე პრიხოდი" />
+      <TextArea fx:id="showResult" layoutX="28.0" layoutY="227.0" prefHeight="139.0" prefWidth="546.0" />
+      <Button layoutX="259.0" layoutY="175.0" mnemonicParsing="false" onAction="#handleDeleteEven" text="წაშალე ლუწი რიცხვები" />
+   </children>
+</AnchorPane>
